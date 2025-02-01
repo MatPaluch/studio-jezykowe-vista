@@ -1,0 +1,67 @@
+.header {
+  background-color: GhostWhite;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navLogo {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 90px;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  text-wrap: nowrap;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navList > li {
+  padding: 0;
+  margin: 0;
+}
+
+.navList > li > a {
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--onyx);
+}
+
+.navList > li > a:hover {
+  color: var(--purple);
+}
+
+.studentButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--white);
+
+  border-radius: 12px;
+  padding: 12px 24px;
+  min-width: 268px;
+  min-height: 48px;
+
+  background: linear-gradient(90deg, #d93fd3 0%, #7247e9 100%);
+}
