@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router';
+import { Link } from 'react-router';
 import logo from '../../assets/logo.png';
 import loginArrow from '../../assets/logInArrow.svg';
 import style from './Header.module.css';
@@ -38,7 +38,7 @@ function Header() {
           </li>
         </ul>
 
-        <Link to='/student' className={style.studentButton}>
+        <Link to='/student' className={`${style.studentButton} button`}>
           <img src={loginArrow} />
           <span>Przejdź do strefy ucznia</span>
         </Link>
