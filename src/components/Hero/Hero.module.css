@@ -33,3 +33,8 @@
   max-width: 100%;
   height: auto;
 }
+.poland {
+  flex-direction: row-reverse;
+  top: 124px;
+  right: 52px;
+}

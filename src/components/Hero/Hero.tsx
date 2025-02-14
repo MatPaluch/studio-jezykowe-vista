@@ -1,6 +1,8 @@
 import { Link } from 'react-router';
 import style from './Hero.module.css';
 import europeMap from '../../assets/europeMap.svg';
+import CountryMessage from '../CountryMessage/CountryMessage';
+import poland from '../../assets/miniflag-poland.svg';
 
 function Hero() {
   const handle = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -23,6 +25,9 @@ function Hero() {
         </div>
         <div className={style.rightSide}>
           <img width='734' height='456' src={europeMap} className={style.svgEuropeMap} />
+          <CountryMessage src={poland} className={style.poland}>
+            Miło cię widzieć!
+          </CountryMessage>
         </div>
       </div>
     </section>
