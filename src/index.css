@@ -63,6 +63,7 @@ h1 {
   display: flex;
   align-items: center;
   padding: 12px 24px;
+  width: fit-content;
 
   font-weight: 600;
   font-size: 1rem;
@@ -70,7 +71,8 @@ h1 {
   color: var(--white);
 
   background: var(--button-background);
-  border-radius: 12px;
+  border-radius: 16px;
+  border: 1px solid #653fcc;
   outline: 3px solid transparent;
   cursor: pointer;
   transition: outline-color 0.25s;
@@ -78,7 +80,7 @@ h1 {
 .button:focus,
 .button:focus-visible,
 .button:hover {
-  outline: 3px solid var(--walls);
+  outline: 3px solid #653fcc;
 }
 
 .container {

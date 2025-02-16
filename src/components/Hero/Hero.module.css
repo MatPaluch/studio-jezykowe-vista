@@ -23,7 +23,7 @@
   max-width: 436px;
 }
 .trialLesson {
-  width: fit-content;
+  filter: drop-shadow(2px 2px 6px rgba(110, 0, 184, 0.7));
 }
 .rightSide {
   position: relative;
@@ -32,9 +32,4 @@
 .svgEuropeMap {
   max-width: 100%;
   height: auto;
-}
-.poland {
-  flex-direction: row-reverse;
-  top: 124px;
-  right: 52px;
 }

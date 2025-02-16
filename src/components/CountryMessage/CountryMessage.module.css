@@ -12,6 +12,10 @@
 }
 .message {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--onyx);
+}
+.triangle {
+  position: absolute;
+  bottom: -16px;
 }
