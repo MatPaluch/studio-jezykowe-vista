@@ -42,6 +42,7 @@
   font-size: 18px;
   line-height: 150%;
   color: var(--onyx);
+  transition: color 0.2s ease-in-out;
 }
 
 .navList > li > a:hover {

@@ -10,6 +10,7 @@ interface countryMessagePropTypes {
   left?: number;
   flagAlignRight?: boolean;
   cloudPointerRight?: boolean;
+  delay?: string;
 }
 
 function CountryMessage({
@@ -21,6 +22,7 @@ function CountryMessage({
   left,
   flagAlignRight,
   cloudPointerRight,
+  delay,
 }: countryMessagePropTypes) {
   return (
     <div
@@ -31,6 +33,7 @@ function CountryMessage({
         bottom: bottom,
         left: left,
         flexDirection: flagAlignRight ? 'row-reverse' : 'row',
+        animationDelay: delay,
       }}
     >
       <img src={src} width='50' height='30' />

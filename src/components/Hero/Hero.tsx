@@ -31,13 +31,13 @@ function Hero() {
           <CountryMessage src={poland} top={112} right={106} flagAlignRight={true}>
             Cześć!
           </CountryMessage>
-          <CountryMessage src={uk} top={106} left={206} cloudPointerRight={true}>
+          <CountryMessage src={uk} top={106} left={206} cloudPointerRight={true} delay='1s'>
             Hello!
           </CountryMessage>
-          <CountryMessage src={germany} top={160} right={244}>
+          <CountryMessage src={germany} top={160} right={244} delay='2s'>
             Hallo!
           </CountryMessage>
-          <CountryMessage src={spain} bottom={132} left={64} cloudPointerRight={true}>
+          <CountryMessage src={spain} bottom={132} left={64} cloudPointerRight={true} delay='3s'>
             ¡Hola!
           </CountryMessage>
         </div>

@@ -31,5 +31,6 @@
 }
 .svgEuropeMap {
   max-width: 100%;
+  min-width: 734px;
   height: auto;
 }
