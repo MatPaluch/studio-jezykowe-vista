@@ -1,11 +1,14 @@
 import { Link } from 'react-router';
+
 import style from './Hero.module.css';
 import europeMap from '../../assets/europeMap.svg';
-import CountryMessage from '../CountryMessage/CountryMessage';
 import poland from '../../assets/mini-flag-poland.svg';
 import germany from '../../assets/mini-flag-germany.svg';
 import uk from '../../assets/mini-flag-uk.svg';
 import spain from '../../assets/mini-flag-spain.svg';
+
+import CountryMessage from '../CountryMessage/CountryMessage';
+import Scoreboard from '../Scoreboard/Scoreboard';
 
 function Hero() {
   const handle = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -42,6 +45,7 @@ function Hero() {
           </CountryMessage>
         </div>
       </div>
+      <Scoreboard exp='10' rate='5,0' clients='200' topics='999' />
     </section>
   );
 }

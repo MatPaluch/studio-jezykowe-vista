@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  width: fit-content;
+
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 150%;
+  color: var(--white);
+
+  background: var(--button-background);
+  border-radius: 16px;
+  border: 1px solid #653fcc;
+  outline: 3px solid transparent;
+  cursor: pointer;
+  transition: outline-color 0.25s;
+}
+.button:focus,
+.button:focus-visible,
+.button:hover {
+  outline: 3px solid #653fcc;
+}

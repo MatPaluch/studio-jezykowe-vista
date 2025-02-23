@@ -1,5 +1,5 @@
 .header {
-  background-color: GhostWhite;
+  background-color: var(--white);
 }
 
 .navigation {
@@ -39,9 +39,6 @@
 }
 
 .navList > li > a {
-  font-size: 18px;
-  line-height: 150%;
-  color: var(--onyx);
   transition: color 0.2s ease-in-out;
 }
 

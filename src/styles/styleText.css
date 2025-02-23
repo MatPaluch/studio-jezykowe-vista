@@ -1,0 +1,27 @@
+.textMedium {
+  font-size: 18px;
+  color: #272742;
+}
+.textRegular {
+  font-size: 16px;
+  color: #272742;
+}
+.textLinks {
+  font-size: 16px;
+  color: #6f46b7;
+}
+.tagline {
+  font-weight: 600;
+  font-size: 24px;
+  color: #272742;
+}
+.taglineSmall {
+  font-weight: 700;
+  font-size: 12px;
+  color: #272742;
+}
+.semiBold {
+  font-weight: 600;
+  font-size: 18px;
+  color: #272742;
+}

@@ -9,7 +9,7 @@ function Header() {
       <nav className={`${style.navigation}  container`}>
         <ul className={style.navList}>
           <li>
-            <Link to='/' className={style.homePageLink}>
+            <Link to='/'>
               <img
                 className={style.navLogo}
                 src={logo}
@@ -20,21 +20,29 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to='/' className={style.homePageLink}>
+            <Link to='/' className='textMedium'>
               Strona główna
             </Link>
           </li>
           <li>
-            <a href='#learning'>Nauczanie</a>
+            <a href='#learning' className='textMedium'>
+              Nauczanie
+            </a>
           </li>
           <li>
-            <a href='#about'>O nas</a>
+            <a href='#about' className='textMedium'>
+              O nas
+            </a>
           </li>
           <li>
-            <a href='#language'>Języki</a>
+            <a href='#language' className='textMedium'>
+              Języki
+            </a>
           </li>
           <li>
-            <a href='#contact'>Kontakt</a>
+            <a href='#contact' className='textMedium'>
+              Kontakt
+            </a>
           </li>
         </ul>
 

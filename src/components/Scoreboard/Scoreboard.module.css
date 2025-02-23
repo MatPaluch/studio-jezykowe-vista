@@ -1,0 +1,24 @@
+.insideBoard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--white);
+}
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerSpan {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+
+  /* line-height: 36px; */
+  line-height: 1.5;
+  color: #272742;
+}
+.star {
+  display: flex;
+  align-items: stretch;
+}
