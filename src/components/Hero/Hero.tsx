@@ -40,7 +40,7 @@ function Hero() {
           <CountryMessage src={germany} top={160} right={244} delay='2s'>
             Hallo!
           </CountryMessage>
-          <CountryMessage src={spain} bottom={132} left={64} cloudPointerRight={true} delay='3s'>
+          <CountryMessage src={spain} top={298} left={64} cloudPointerRight={true} delay='3s'>
             ¡Hola!
           </CountryMessage>
         </div>

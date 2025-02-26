@@ -1,23 +1,21 @@
 .heroSection {
   background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 40px;
 }
 .mainContainer {
   display: flex;
-  align-items: center;
-  position: relative;
 }
 .leftSide {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 36px;
-
+  gap: 56px;
   color: var(--white);
-
   max-width: 653px;
-  padding: 40px 0;
   margin-right: -126px;
-  z-index: 1;
 }
 .subHeader {
   max-width: 436px;

@@ -1,0 +1,28 @@
+.scienceSection {
+  padding: 80px 40px;
+}
+.cardDescription {
+  background-color: var(--yellow);
+  border-radius: 32px 0 0 32px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  margin-right: -0;
+}
+.cardDescription > h3 {
+  width: 50%;
+}
+.cardDescription > p {
+  width: 50%;
+}
+.benefitsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 80px 0 0 0;
+  display: flex;
+  gap: 48px;
+}
+.benefitsList > li {
+  width: calc(100% / 3);
+}
