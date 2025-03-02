@@ -1,0 +1,18 @@
+.bg {
+  background-color: var(--blue);
+}
+.content {
+  display: flex;
+  gap: 80px;
+}
+
+.textBox {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  justify-content: center;
+}
+.textBox h3,
+.textBox p {
+  color: var(--white-text);
+}

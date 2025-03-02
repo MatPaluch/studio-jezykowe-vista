@@ -11,7 +11,7 @@ interface ScoreboardProps {
 
 const Scoreboard: FunctionComponent<ScoreboardProps> = ({ exp, rate, clients, topics }) => {
   return (
-    <div className={`container ${style.board}`}>
+    <div className={style.board}>
       <div className={style.border}>
         <div className={style.insideBoard}>
           <div className={style.element}>

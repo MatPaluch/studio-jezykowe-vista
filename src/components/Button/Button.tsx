@@ -1,11 +1,8 @@
 import React from 'react';
+import iniStyles from './Button.module.css';
 
-interface ButtonProps {
-  style?: React.CSSProperties;
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
-  children?: React.ReactNode;
-  value?: string;
-  onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
 function Button({
@@ -16,7 +13,12 @@ function Button({
   onClick,
 }: ButtonProps) {
   return (
-    <button onClick={onClick} value={value} className={`button ${className}`} style={style}>
+    <button
+      onClick={onClick}
+      value={value}
+      className={`${iniStyles.button} ${className}`}
+      style={style}
+    >
       {children}
     </button>
   );

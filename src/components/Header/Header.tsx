@@ -2,11 +2,12 @@ import { Link } from 'react-router';
 import logo from '../../assets/logo.png';
 import loginArrow from '../../assets/logInArrow.svg';
 import style from './Header.module.css';
+import Button from '../Button/Button';
 
 function Header() {
   return (
     <header className={style.header}>
-      <nav className={`${style.navigation}  container`}>
+      <nav className={style.navigation}>
         <ul className={style.navList}>
           <li>
             <Link to='/'>
@@ -46,9 +47,11 @@ function Header() {
           </li>
         </ul>
 
-        <Link to='/student' className={`${style.studentButton} button`}>
-          <img src={loginArrow} />
-          <span>Przejdź do strefy ucznia</span>
+        <Link to='/student'>
+          <Button>
+            <img src={loginArrow} />
+            <span>Przejdź do strefy ucznia</span>
+          </Button>
         </Link>
       </nav>
     </header>

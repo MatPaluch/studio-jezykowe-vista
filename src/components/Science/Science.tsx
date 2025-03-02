@@ -7,8 +7,8 @@ import chevron from '../../assets/rightChevron.svg';
 
 function Science() {
   return (
-    <section className={style.scienceSection} id='learning'>
-      <div className='container'>
+    <section className='container' id='learning'>
+      <div>
         <div className={style.cardDescription}>
           <h3 className='header3'>Jak działa nauczanie w naszej szkole?</h3>
           <p>
@@ -19,7 +19,7 @@ function Science() {
           </p>
         </div>
       </div>
-      <div className='container'>
+      <div>
         <ul className={style.benefitsList}>
           <li>
             <div>

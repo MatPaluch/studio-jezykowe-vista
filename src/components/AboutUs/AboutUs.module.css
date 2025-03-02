@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+.heading {
+  flex: 1;
+}
+.desc {
+  flex: 1;
+}
+.transButton {
+  margin-top: 32px;
+  border: 0;
+  padding: 2px;
+  background: var(--button-background);
+}
+.buttonContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 12px 12px 24px;
+  background-color: var(--white);
+  transition: background-color 250ms;
+  cursor: pointer;
+}
+.buttonContent:hover {
+  background-color: transparent;
+}
+.chevron:hover {
+  fill: white;
+}

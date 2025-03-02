@@ -9,6 +9,7 @@ import spain from '../../assets/mini-flag-spain.svg';
 
 import CountryMessage from '../CountryMessage/CountryMessage';
 import Scoreboard from '../Scoreboard/Scoreboard';
+import Button from '../Button/Button';
 
 function Hero() {
   const handle = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -17,16 +18,16 @@ function Hero() {
 
   return (
     <section className={style.heroSection}>
-      <div className={`container ${style.mainContainer}`}>
+      <div className={style.mainContainer}>
         <div className={style.leftSide}>
           <h1>Odkryj świat języków z Studio Językowe Vista!</h1>
-          <p className={style.subHeader}>
+          <p className={`textMedium ${style.subHeader}`}>
             Nasza szkoła językowa oferuje indywidualne podejście do każdego ucznia, zapewniając
             skuteczną naukę języków obcych. Z nami odkryjesz radość z nauki angielskiego,
             niemieckiego i hiszpańskiego.
           </p>
-          <Link to='#contact' className={`${style.trialLesson} button`}>
-            Umów się na lekcję próbną
+          <Link to='#contact' className={style.trialLesson}>
+            <Button>Umów się na lekcję próbną</Button>
           </Link>
         </div>
         <div className={style.rightSide}>

@@ -1,12 +1,14 @@
 .heroSection {
   background-color: var(--blue);
   display: flex;
+  align-items: center;
   flex-direction: column;
-  padding: 40px;
+  padding: 40px 80px;
   gap: 40px;
 }
 .mainContainer {
   display: flex;
+  max-width: 1440px;
 }
 .leftSide {
   display: flex;
@@ -19,6 +21,7 @@
 }
 .subHeader {
   max-width: 436px;
+  color: var(--text-white);
 }
 .trialLesson {
   filter: drop-shadow(2px 2px 6px rgba(110, 0, 184, 0.7));
