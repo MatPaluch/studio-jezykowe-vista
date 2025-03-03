@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import logo from '../../assets/logo.png';
-import loginArrow from '../../assets/logInArrow.svg';
+import loginArrow from '../../assets/loginArrow.svg';
 import style from './Header.module.css';
 import Button from '../Button/Button';
 
