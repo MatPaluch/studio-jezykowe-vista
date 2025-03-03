@@ -12,9 +12,9 @@ import Scoreboard from '../Scoreboard/Scoreboard';
 import Button from '../Button/Button';
 
 function Hero() {
-  const handle = (event: React.MouseEvent<HTMLButtonElement>) => {
-    console.log(event.currentTarget.innerHTML);
-  };
+  // const handle = (event: React.MouseEvent<HTMLButtonElement>) => {
+  //   console.log(event.currentTarget.innerHTML);
+  // };
 
   return (
     <section className={style.heroSection}>

@@ -1,4 +1,3 @@
-import downChevron from '../../assets/downChevron.svg';
 import style from './AboutUs.module.css';
 
 function AboutUs() {
