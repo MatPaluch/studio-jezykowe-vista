@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  gap: 80px;
+}
+.titleContent > h4 {
+  margin-bottom: 16px;
+}
+.titleContent > h2 {
+  margin-bottom: 24px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.item {
+  display: flex;
+  gap: 16px;
+}
+.item > span > h6 {
+  margin-bottom: 8px;
+}

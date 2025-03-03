@@ -12,16 +12,22 @@
   font-size: 1rem;
   line-height: 150%;
   color: var(--white);
-
-  background: var(--button-background);
-  border-radius: 12px;
-  border: 1px solid #653fcc;
+  border-radius: 16px;
+  border: 0px solid #653fcc;
   outline: 3px solid transparent;
   cursor: pointer;
-  transition: outline-color 0.25s;
+
+  background: linear-gradient(75deg, #d93fd3 45%, #7247e9 65%);
+  background-size: 500%;
+  background-position: 50%;
+  transition: outline-color 0.25s ease-in-out, background-position 0.5s ease-in-out;
 }
 .button:focus,
 .button:focus-visible,
 .button:hover {
   outline: 3px solid #653fcc;
+}
+
+.button:hover {
+  background-position: -40%;
 }

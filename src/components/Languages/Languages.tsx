@@ -8,7 +8,7 @@ import Button from '../Button/Button';
 
 function Languages() {
   return (
-    <section className={`container ${style.secLang}`}>
+    <section className={`container ${style.secLang}`} id='language'>
       <div className={style.headingContent}>
         <h4 className='tagline'>Języki</h4>
         <h2 className='header2'>Oferujemy naukę trzech języków obcych</h2>
