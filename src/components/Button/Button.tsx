@@ -6,6 +6,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 function Button({
+  type = 'button',
   children = 'Click me',
   value = '',
   className = '',
@@ -14,6 +15,7 @@ function Button({
 }: ButtonProps) {
   return (
     <button
+      type={type}
       onClick={onClick}
       value={value}
       className={`${iniStyles.button} ${className}`}

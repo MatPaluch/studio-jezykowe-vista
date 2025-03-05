@@ -1,0 +1,27 @@
+.formSection {
+  display: flex;
+  gap: 40px;
+}
+
+.formContainer {
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input {
+  background-color: transparent;
+  position: relative;
+}
+.form label {
+  position: relative;
+}
+.form label::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
