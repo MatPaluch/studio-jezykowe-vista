@@ -1,10 +1,11 @@
 import style from './WhyUs.module.css';
+import log from '../../assets/logo500x500.png';
 
-function WhyUs() {
+function WhyUs({ show }: { show: boolean }) {
   return (
-    <section className={style.bg}>
+    <section className={`${style.bg} ${show && style.show}`}>
       <div className={`container ${style.content}`}>
-        <img src='' alt='image_why_us' width={600} height={600} />
+        <img src={log} alt='image_why_us' width={600} height={600} />
         <div className={style.textBox}>
           <h3 className='header3'>Dlaczego warto wybrać naszą szkołę językową?</h3>
           <p className='textRegular'>

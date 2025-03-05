@@ -1,5 +1,8 @@
 .bg {
   background-color: var(--blue);
+  max-height: 0;
+  transition: max-height 350ms ease-in-out;
+  overflow: hidden;
 }
 .content {
   display: flex;
@@ -15,4 +18,8 @@
 .textBox h3,
 .textBox p {
   color: var(--white-text);
+}
+
+.show {
+  max-height: 760px;
 }

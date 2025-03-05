@@ -22,12 +22,23 @@
   gap: 8px;
   padding: 12px 12px 12px 24px;
   background-color: var(--white);
-  transition: background-color 250ms;
+  transition: background-color 350ms, color 350ms;
   cursor: pointer;
 }
 .buttonContent:hover {
+  color: var(--white);
   background-color: transparent;
 }
-.chevron:hover {
-  fill: white;
+.chevron path {
+  transition: stroke 4s;
+}
+.buttonContent:hover .chevron path {
+  stroke: white;
+}
+.chevron {
+  rotate: 0deg;
+  transition: rotate 350ms ease-in-out;
+}
+.chevron.show {
+  rotate: 180deg;
 }
