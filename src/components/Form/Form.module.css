@@ -4,24 +4,57 @@
 }
 
 .formContainer {
+  width: 100%;
 }
 .form {
   display: flex;
   flex-direction: column;
+  gap: 32px;
+}
+.nameContainer {
+  display: flex;
+  gap: 32px;
 }
 .form input {
-  background-color: transparent;
+  padding: 16px 32px;
+  border: 0;
+  outline: 0;
+  height: 100%;
+  width: 100%;
+}
+.formMaterial {
+  height: 56px;
+  background: var(--button-background);
+  padding: 1px;
   position: relative;
 }
+
+.textAreaDiv {
+  background: var(--button-background);
+  padding: 1px;
+  position: relative;
+  height: 250px;
+}
+.textArea {
+  padding: 16px 32px;
+  border: 0;
+  outline: 0;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  resize: none;
+}
+
 .form label {
-  position: relative;
-}
-.form label::before {
-  content: '';
-  display: block;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 200px;
+  left: 32px;
+  top: 16px;
+  transition: transform 0.35s;
+}
+
+.form input:focus ~ label,
+.form input:not(:placeholder-shown) ~ label,
+.form textarea:focus ~ label,
+.form textarea:not(:placeholder-shown) ~ label {
+  transform: translate(-32px, -42px);
 }
