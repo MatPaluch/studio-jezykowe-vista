@@ -6,7 +6,7 @@ import logo from '../../assets/logo500x500.png';
 function Form() {
   return (
     <section className={`container ${style.formSection}`}>
-      <img alt='contactIMG' width={600} height={620} />
+      <img src={logo} alt='contactIMG' width={600} height={620} />
       <div className={style.formContainer}>
         <h2 className='header2' style={{ marginBottom: 42 }}>
           Wypełnij formularz

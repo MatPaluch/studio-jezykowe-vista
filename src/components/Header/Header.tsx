@@ -10,7 +10,7 @@ function Header() {
       <nav className={style.navigation}>
         <ul className={style.navList}>
           <li>
-            <Link to='/'>
+            <Link to='/studio-jezykowe-vista'>
               <img
                 className={style.navLogo}
                 src={logo}
@@ -21,7 +21,7 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to='/' className='textMedium'>
+            <Link to='/studio-jezykowe-vista' className='textMedium'>
               Strona główna
             </Link>
           </li>

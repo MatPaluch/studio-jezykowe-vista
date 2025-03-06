@@ -1,0 +1,17 @@
+footer {
+  background-color: var(--blue);
+  height: 470px;
+}
+.footerColumns {
+  display: flex;
+  gap: 40px;
+}
+.footerColumns h4,
+.footerColumns a {
+  color: var(--white-text);
+}
+.vsjCol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

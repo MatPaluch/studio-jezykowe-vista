@@ -34,6 +34,7 @@
   --grey: #e4e2df;
   --white: #fff;
   --white-text: #fff;
+  scroll-behavior: smooth;
 }
 
 body {

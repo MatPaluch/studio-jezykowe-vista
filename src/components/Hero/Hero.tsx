@@ -26,9 +26,9 @@ function Hero() {
             skuteczną naukę języków obcych. Z nami odkryjesz radość z nauki angielskiego,
             niemieckiego i hiszpańskiego.
           </p>
-          <Link to='#contact' className={style.trialLesson}>
+          <a href='#contact' className={style.trialLesson}>
             <Button>Umów się na lekcję próbną</Button>
-          </Link>
+          </a>
         </div>
         <div className={style.rightSide}>
           <img width='734' height='456' src={europeMap} className={style.svgEuropeMap} />
