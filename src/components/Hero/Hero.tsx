@@ -1,5 +1,3 @@
-import { Link } from 'react-router';
-
 import style from './Hero.module.css';
 import europeMap from '../../assets/europeMap.svg';
 import poland from '../../assets/mini-flag-poland.svg';
