@@ -30,8 +30,8 @@ function Contact() {
                 <img src={phone} alt='phoneIcon' width={24} height={24} />
                 <span>
                   <h6 className='header6'>Telefon</h6>
-                  <a className='textLinks' href='tel:+48123456789'>
-                    +48 123 456 789
+                  <a className='textLinks' href='tel:+48723956208'>
+                    +48 723 956 208
                   </a>
                 </span>
               </li>
@@ -39,8 +39,13 @@ function Contact() {
                 <img src={map} alt='mapIcon' width={24} height={24} />
                 <span>
                   <h6 className='header6'>Biuro</h6>
-                  <a className='textLinks' href='https://goo.gl/maps/example'>
-                    ul. Przykładowa 123, Warszawa 00-001 PL
+                  <a
+                    className='textLinks'
+                    href='https://maps.app.goo.gl/xy2Brt8hZFeSzqoV9'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    ul. Skotarska 17, 61-639 Poznań
                   </a>
                 </span>
               </li>
