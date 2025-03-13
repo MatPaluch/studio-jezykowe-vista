@@ -10,12 +10,17 @@ function Science() {
     <section className='container' id='learning'>
       <div>
         <div className={style.cardDescription}>
-          <h3 className='header3'>Jak działa nauczanie w naszej szkole?</h3>
+          <h3 className='header3'>Jak uczymy w Studio Językowym Vista?</h3>
           <p>
-            W Vista Studio Językowym pomagamy otwierać drzwi do świata dzięki łamaniu bariery
-            językowej i znajomości języków obcych. Naszym celem jest wspieranie zarówno dzieci,
-            młodzieży, jak i dorosłych w rozwijaniu umiejętności językowych w sposób nowoczesny,
-            przyjazny i dostosowany do indywidualnych potrzeb.
+            Na naszych zajęciach skupiamy się na wcześniej wyznaczonych celach, aby zapewnić
+            efektywną i satysfakcjonującą naukę. Dla niektórych będzie to szlifowanie akcentu, a dla
+            innych – zdobycie piątki ze sprawdzianu lub kartkówki. Twoje potrzeby są dla nas
+            najważniejsze.
+            <br />
+            <br />
+            Aby nauka języków była ciekawa, korzystamy z różnorodnych podcastów, materiałów na
+            YouTube oraz muzyki. Dla każdego znajdzie się coś interesującego! Pomagamy w sposób
+            nowoczesny, przyjazny i dostosowany do indywidualnych potrzeb.
           </p>
         </div>
       </div>

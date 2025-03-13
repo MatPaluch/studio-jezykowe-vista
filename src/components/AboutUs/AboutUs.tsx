@@ -17,8 +17,10 @@ function AboutUs() {
           </div>
           <div className={style.desc}>
             <p className='textRegular'>
-              Vista - Studio Językowe powstało z pasji do nauczania języków obcych. Naszą misją jest
-              inspirowanie uczniów do odkrywania świata poprzez język.
+              Studio Językowe Vista powstało z wielkiej potrzeby dzielenia się miłością do języków
+              obcych oraz niebanalnymi metodami nauki. Chcemy Ci pokazać, że trudności językowe
+              wymagają ciekawych rozwiązań i skojarzeń, a nie tylko listy słówek i „suchej”
+              gramatyki. 😊
             </p>
             <button className={style.transButton} onClick={handleShow}>
               <div className={style.buttonContent}>

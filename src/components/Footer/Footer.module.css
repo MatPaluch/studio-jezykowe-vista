@@ -1,6 +1,5 @@
 footer {
   background-color: var(--blue);
-  height: 470px;
 }
 .footerColumns {
   display: flex;
@@ -14,4 +13,32 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+.iconBg {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--cloud-blue);
+  margin-right: 10px;
+}
+.socialList > li {
+  display: flex;
+  align-items: center;
+}
+.policyInfo {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 24px;
+  color: white;
+  border-top: 1px solid white;
+  height: 54px;
+  margin-top: 48px;
+}
+.policyInfo a {
+  text-decoration: underline;
+  color: white;
 }

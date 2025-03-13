@@ -7,7 +7,7 @@ function Layout() {
   return (
     <>
       <Header />
-      <Suspense fallback={<div>Ładowanie...</div>}>
+      <Suspense fallback={<div style={{ height: '50vh' }}>Ładowanie...</div>}>
         <Outlet />
       </Suspense>
       <Footer />
