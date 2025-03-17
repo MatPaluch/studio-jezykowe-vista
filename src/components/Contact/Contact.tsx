@@ -21,8 +21,8 @@ function Contact() {
                 <img src={envelope} alt='envelopeIcon' width={24} height={24} />
                 <span>
                   <h6 className='header6'>Email</h6>
-                  <a className='textLinks' href='mailto:kontakt@vista.edu.pl'>
-                    kontakt@vista.edu.pl
+                  <a className='textLinks' href='mailto:studiojezykowevista@gmail.com'>
+                    studiojezykowevista@gmail.com
                   </a>
                 </span>
               </li>

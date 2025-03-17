@@ -60,25 +60,25 @@ function Footer() {
                 <div className={style.iconBg}>
                   <img src={instagram} alt='instagramIcon' width={24} height={24} />
                 </div>
-                <a href='#about'>instagram.com/vista</a>
+                <a
+                  href='https://www.instagram.com/studiojezykowevista/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  instagram.com/studiojezykowevista
+                </a>
               </li>
               <li>
                 <div className={style.iconBg}>
                   <img src={facebook} alt='facebookIcon' width={24} height={24} />
                 </div>
-                <a href='#language'>facebook.com/vista</a>
-              </li>
-              <li>
-                <div className={style.iconBg}>
-                  <img src={linkedin} alt='linkedinIcon' width={24} height={24} />
-                </div>
-                <a href='#about'>linkedin.com/vista</a>
-              </li>
-              <li>
-                <div className={style.iconBg}>
-                  <img src={youtube} alt='youtubeIcon' width={24} height={24} />
-                </div>
-                <a href='#about'>youtube.com/vista</a>
+                <a
+                  href='https://www.facebook.com/profile.php?id=61557406795806'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  facebook.com/studiojezykowevista
+                </a>
               </li>
             </ul>
           </li>
