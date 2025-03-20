@@ -6,11 +6,11 @@
   align-items: center;
   gap: 64px;
 }
-.cardDescription > h3 {
-  width: -webkit-fill-available;
+
+.cardDescription>h3 {
+  width: 100%;
 }
-.cardDescription > p {
-}
+
 .benefitsList {
   list-style-type: none;
   padding: 0;
@@ -18,6 +18,7 @@
   display: flex;
   gap: 48px;
 }
-.benefitsList > li {
+
+.benefitsList>li {
   width: calc(100% / 3);
 }

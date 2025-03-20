@@ -42,7 +42,9 @@ function Faq() {
         <div className={style.contactContent}>
           <h4 className='header3_5'>Masz jeszcze pytania?</h4>
           <p className='textRegular'>Skontaktuj się z nami, aby uzyskać więcej informacji.</p>
-          <Button style={{ width: 160 }}>Kontakt</Button>
+          <a href="#contact">
+            <Button style={{ width: 160 }}>Kontakt</Button>
+          </a>
         </div>
       </div>
     </section>

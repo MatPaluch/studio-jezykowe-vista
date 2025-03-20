@@ -2,8 +2,6 @@ import style from './Footer.module.css';
 import logo from '../../assets/logo84x84.png';
 import instagram from '../../assets/InstagramIcon.svg';
 import facebook from '../../assets/FacebookIcon.svg';
-import linkedin from '../../assets/LinkedInIcon.svg';
-import youtube from '../../assets/YoutubeIcon.svg';
 import { Link } from 'react-router';
 
 function Footer() {
@@ -19,13 +17,13 @@ function Footer() {
             <h4 className='semiBold'>Vista Studio Językowe</h4>
             <ul className={style.vsjCol}>
               <li>
+                <a href='#about'>O nas</a>
+              </li>
+              <li>
                 <a href='#about'>Dlaczego my</a>
               </li>
               <li>
                 <a href='#language'>Języki</a>
-              </li>
-              <li>
-                <a href='#about'>O nas</a>
               </li>
               <li>
                 <a href='#faq'>

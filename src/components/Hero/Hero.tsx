@@ -44,7 +44,7 @@ function Hero() {
           </CountryMessage>
         </div>
       </div>
-      <Scoreboard exp='10' rate='5,0' clients='200' topics='999' />
+      <Scoreboard exp={10} rate={5.0} clients={200} topics={999} />
     </section>
   );
 }
