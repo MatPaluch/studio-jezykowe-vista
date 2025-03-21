@@ -2,7 +2,8 @@
 @import 'modern-normalize/modern-normalize.css';
 
 :root {
-  font-family: 'Poppins', Inter, system-ui, 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', Inter, system-ui, 'Avenir', Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -72,4 +73,19 @@ ul {
   margin: 0 auto;
   max-width: 1440px;
   padding: 80px;
+}
+
+.no-scroll {
+  overflow: hidden;
+  scroll-behavior: unset;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 12px;
+  }
 }

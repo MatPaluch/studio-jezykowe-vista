@@ -31,3 +31,16 @@
 .button:hover {
   background-position: -40%;
 }
+
+@media screen and (max-width: 768px) {
+  .button {
+    padding: 12px 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .button {
+    padding: 8px 10px;
+    font-size: 0.75rem;
+    border-radius: 8px;
+  }
+}

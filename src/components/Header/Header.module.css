@@ -4,6 +4,7 @@
   padding: 0 80px;
 }
 .navigation {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,9 +17,9 @@
 }
 
 .navLogo {
-  display: block;
-  width: 100%;
-  height: auto;
+  display: inline;
+  width: 90px;
+  height: 90px;
   min-width: 90px;
 }
 
@@ -45,4 +46,35 @@
 
 .navList > li > a:hover {
   color: var(--purple);
+}
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 0 10px;
+  }
+  .navList {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 50%;
+  }
+  .hamburger:hover,
+  .hamburger:focus-visible,
+  .hamburger:focus-within,
+  .hamburger:focus {
+    cursor: pointer;
+    background-color: lightgray;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
 }
