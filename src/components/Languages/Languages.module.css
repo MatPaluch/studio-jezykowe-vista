@@ -4,6 +4,7 @@
   align-items: center;
   gap: 80px;
 }
+
 .headingContent {
   max-width: 768px;
   text-align: center;
@@ -13,16 +14,14 @@
   margin-top: 16px;
   margin-bottom: 24px;
 }
+
 .cardList {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
   gap: 48px;
 }
+
 .cardList > li {
   background-color: var(--blue);
-  height: 300px;
   border-radius: 36px 0;
   padding: 28px 16px;
   flex: 1;
@@ -32,7 +31,23 @@
   flex-direction: column;
   gap: 24px;
   text-align: center;
+  height: auto;
 }
+
 .cardList > li > p {
   color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .cardList {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .secLang {
+    gap: 40px;
+  }
+  .cardList {
+    gap: 24px;
+  }
 }

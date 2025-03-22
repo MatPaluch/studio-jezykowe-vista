@@ -79,6 +79,11 @@ ul {
   overflow: hidden;
   scroll-behavior: unset;
 }
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 60px;
+  }
+}
 @media screen and (max-width: 768px) {
   .container {
     padding: 40px;

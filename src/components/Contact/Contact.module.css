@@ -1,7 +1,9 @@
 .content {
   display: flex;
   gap: 80px;
+  width: 100%;
 }
+
 .titleContent > h4 {
   margin-bottom: 16px;
 }
@@ -19,4 +21,19 @@
 }
 .item > span > h6 {
   margin-bottom: 8px;
+}
+.or {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .list {
+    gap: 16px;
+  }
+  .item {
+    gap: 8px;
+  }
 }

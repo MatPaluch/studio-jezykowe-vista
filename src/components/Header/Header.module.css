@@ -3,6 +3,12 @@
   margin: 0 auto;
   padding: 0 80px;
 }
+.nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
 .navigation {
   width: 100%;
   display: flex;
@@ -27,9 +33,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  text-wrap: nowrap;
 
+  text-wrap: nowrap;
+  width: 500px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -47,14 +53,29 @@
 .navList > li > a:hover {
   color: var(--purple);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
+  .header {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 1080px) {
   .header {
     padding: 0 40px;
   }
 }
 @media screen and (max-width: 480px) {
+  .nav > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navLogo {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+  }
   .header {
-    padding: 0 10px;
+    padding: 0 12px;
   }
   .navList {
     display: none;

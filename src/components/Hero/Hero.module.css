@@ -41,6 +41,9 @@
   height: auto;
 }
 @media screen and (max-width: 1280px) {
+  .heroSection {
+    padding: 40px 60px;
+  }
   .mainContainer {
     display: inherit;
   }
@@ -52,11 +55,36 @@
     margin-left: auto;
     margin-top: calc((-12vw / 0.1) + 1150px);
   }
-  .svgEuropeMap {
-  }
 }
 @media screen and (max-width: 1024px) {
+  .heroSection {
+    padding: 20px 40px;
+  }
   .rightSide {
     display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    margin-bottom: 30px;
+  }
+  .leftSide {
+    margin-right: 0;
+    gap: 30px;
+  }
+  .leftSide > h1 {
+    font-size: 32px;
+  }
+  .rightSide {
+    display: none;
+  }
+  .trialLesson {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .heroSection {
+    padding: 12px;
   }
 }

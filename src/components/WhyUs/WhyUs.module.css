@@ -7,6 +7,7 @@
 .content {
   display: flex;
   gap: 80px;
+  align-items: center;
 }
 
 .textBox {
@@ -22,4 +23,21 @@
 
 .show {
   max-height: 760px;
+}
+.img {
+  height: auto;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .textBox {
+    gap: 16px;
+  }
+  .img {
+    aspect-ratio: 1/1;
+  }
 }

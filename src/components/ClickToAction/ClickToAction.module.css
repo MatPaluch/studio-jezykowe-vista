@@ -8,3 +8,9 @@
 .section > div {
   flex: 1;
 }
+@media screen and (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
