@@ -1,10 +1,8 @@
 import style from './Hero.module.css';
-import europeMap from '../../assets/europeMap.svg';
 import poland from '../../assets/mini-flag-poland.svg';
 import germany from '../../assets/mini-flag-germany.svg';
 import uk from '../../assets/mini-flag-uk.svg';
 import spain from '../../assets/mini-flag-spain.svg';
-
 import CountryMessage from '../CountryMessage/CountryMessage';
 import Scoreboard from '../Scoreboard/Scoreboard';
 import Button from '../Button/Button';
