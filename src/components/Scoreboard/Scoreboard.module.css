@@ -5,6 +5,7 @@
   height: 120px;
   width: 100%;
   max-width: 1280px;
+  margin: 0 auto;
 }
 .border {
   height: 100%;
@@ -39,4 +40,35 @@
   display: flex;
   align-items: center;
   gap: 8px;
+}
+@media screen and (max-width: 768px) {
+  .board {
+    height: auto;
+    width: 400px;
+    padding: 12px;
+  }
+  .insideBoard {
+    flex-direction: column;
+    padding: 0 12px;
+  }
+  .element {
+    margin: 12px 0;
+    font-size: 16px;
+  }
+  .star {
+    gap: 4px;
+    align-items: baseline;
+  }
+  .star img {
+    width: 20px;
+    height: 20px;
+  }
+  .headerSpan {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .board {
+    width: 100%;
+  }
 }

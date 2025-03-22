@@ -1,14 +1,13 @@
 .heroSection {
   background-color: var(--blue);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   padding: 40px 80px;
-  gap: 40px;
 }
 .mainContainer {
+  max-width: 1280px;
   display: flex;
-  max-width: 1440px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .leftSide {
   display: flex;
@@ -16,8 +15,18 @@
   justify-content: space-between;
   gap: 56px;
   color: var(--white);
-  max-width: 653px;
   margin-right: -126px;
+  max-width: 900px;
+}
+.rightSide {
+  background-image: url('../../assets/europeMap.svg');
+  display: block; /* Zmieniono z inline na inline-block */
+  position: relative;
+  width: 734px;
+  height: 456px;
+  aspect-ratio: 734 / 456;
+  background-size: cover; /* Dodano background-size */
+  background-position: center; /* Dodano background-position */
 }
 .subHeader {
   max-width: 436px;
@@ -26,12 +35,56 @@
 .trialLesson {
   filter: drop-shadow(2px 2px 6px rgba(110, 0, 184, 0.7));
 }
-.rightSide {
-  position: relative;
-  z-index: 0;
-}
 .svgEuropeMap {
   max-width: 100%;
   min-width: 734px;
   height: auto;
+}
+@media screen and (max-width: 1280px) {
+  .heroSection {
+    padding: 40px 60px;
+  }
+  .mainContainer {
+    display: inherit;
+  }
+  .leftSide {
+    margin-right: 0;
+  }
+  .rightSide {
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: calc((-12vw / 0.1) + 1150px);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .heroSection {
+    padding: 20px 40px;
+  }
+  .rightSide {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    margin-bottom: 30px;
+  }
+  .leftSide {
+    margin-right: 0;
+    gap: 30px;
+  }
+  .leftSide > h1 {
+    font-size: 32px;
+  }
+  .rightSide {
+    display: none;
+  }
+  .trialLesson {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .heroSection {
+    padding: 12px;
+  }
 }

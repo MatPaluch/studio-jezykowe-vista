@@ -20,26 +20,49 @@ function Hero() {
         <div className={style.leftSide}>
           <h1>Odkryj świat języków z Studio Językowe Vista!</h1>
           <p className={`textMedium ${style.subHeader}`}>
-            Nasza szkoła językowa oferuje indywidualne podejście do każdego ucznia, zapewniając
-            skuteczną naukę języków obcych. Z nami odkryjesz radość z nauki angielskiego,
-            niemieckiego i hiszpańskiego.
+            Nasza szkoła językowa oferuje indywidualne podejście do każdego
+            ucznia, zapewniając skuteczną naukę języków obcych. Z nami odkryjesz
+            radość z nauki angielskiego, niemieckiego i hiszpańskiego.
           </p>
-          <a href='#contact' className={style.trialLesson}>
+          <a href="#contact" className={style.trialLesson}>
             <Button>Umów się na lekcję próbną</Button>
           </a>
         </div>
         <div className={style.rightSide}>
-          <img width='734' height='456' src={europeMap} className={style.svgEuropeMap} />
-          <CountryMessage src={poland} top={112} right={106} flagAlignRight={true}>
+          {/* <img
+            width='734'
+            height='456'
+            src={europeMap}
+            className={style.svgEuropeMap}
+            draggable='false'
+          /> */}
+          <CountryMessage
+            src={poland}
+            top={112}
+            right={106}
+            flagAlignRight={true}
+          >
             Cześć!
           </CountryMessage>
-          <CountryMessage src={uk} top={106} left={206} cloudPointerRight={true} delay='1s'>
+          <CountryMessage
+            src={uk}
+            top={106}
+            left={206}
+            cloudPointerRight={true}
+            delay="1s"
+          >
             Hello!
           </CountryMessage>
-          <CountryMessage src={germany} top={160} right={244} delay='2s'>
+          <CountryMessage src={germany} top={160} right={244} delay="2s">
             Hallo!
           </CountryMessage>
-          <CountryMessage src={spain} top={298} left={64} cloudPointerRight={true} delay='3s'>
+          <CountryMessage
+            src={spain}
+            top={298}
+            left={64}
+            cloudPointerRight={true}
+            delay="3s"
+          >
             ¡Hola!
           </CountryMessage>
         </div>

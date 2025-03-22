@@ -3,7 +3,14 @@
   margin: 0 auto;
   padding: 0 80px;
 }
+.nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
 .navigation {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,9 +23,9 @@
 }
 
 .navLogo {
-  display: block;
-  width: 100%;
-  height: auto;
+  display: inline;
+  width: 90px;
+  height: 90px;
   min-width: 90px;
 }
 
@@ -26,9 +33,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  text-wrap: nowrap;
 
+  text-wrap: nowrap;
+  width: 500px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -45,4 +52,50 @@
 
 .navList > li > a:hover {
   color: var(--purple);
+}
+@media screen and (max-width: 1280px) {
+  .header {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .header {
+    padding: 0 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nav > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navLogo {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+  }
+  .header {
+    padding: 0 12px;
+  }
+  .navList {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 50%;
+  }
+  .hamburger:hover,
+  .hamburger:focus-visible,
+  .hamburger:focus-within,
+  .hamburger:focus {
+    cursor: pointer;
+    background-color: lightgray;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
 }

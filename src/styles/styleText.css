@@ -75,3 +75,85 @@
   color: #272742;
   margin: 22.5px 0;
 }
+@media screen and (max-width: 768px) {
+  .header2 {
+    font-size: 36px;
+    line-height: 120%;
+  }
+  .header3 {
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .header3_5 {
+    font-size: 24px;
+    line-height: 130%;
+  }
+  .header4 {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .header6 {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .textMedium {
+    font-size: 14px;
+  }
+  .textRegular {
+    font-size: 14px;
+  }
+  .textLinks {
+    font-size: 14px;
+  }
+  .tagline {
+    font-size: 18px;
+  }
+  .taglineSmall {
+    font-size: 10px;
+  }
+  .semiBold {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header2 {
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .header3 {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .header3_5 {
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .header4 {
+    margin: 12px 0;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .header6 {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .textMedium {
+    font-size: 12px;
+  }
+  .textRegular {
+    font-size: 12px;
+  }
+  .textLinks {
+    font-size: 12px;
+  }
+  .tagline {
+    font-size: 16px;
+  }
+  .taglineSmall {
+    font-size: 8px;
+  }
+  .semiBold {
+    margin: 12px 0;
+    font-size: 14px;
+  }
+}
