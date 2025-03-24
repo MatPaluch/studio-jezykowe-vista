@@ -1,12 +1,12 @@
 import style from './WhyUs.module.css';
-import log from '../../assets/logo500x500.png';
+import why from '../../assets/why_us.jpg';
 
 function WhyUs({ show }: { show: boolean }) {
   return (
     <section className={`${style.bg} ${show && style.show}`}>
       <div className={`container ${style.content}`}>
         <img
-          src={log}
+          src={why}
           alt="image_why_us"
           width={600}
           height={600}

@@ -26,10 +26,24 @@
 }
 .img {
   height: auto;
-  width: 50%;
+}
+@media screen and (max-width: 1080px) {
+  .content {
+    gap: 40px;
+  }
+  .textBox {
+    gap: 16px;
+  }
+  .img {
+    width: 300px;
+  }
 }
 
 @media (max-width: 768px) {
+  .img {
+    width: 50%;
+  }
+
   .content {
     flex-direction: column;
     gap: 40px;

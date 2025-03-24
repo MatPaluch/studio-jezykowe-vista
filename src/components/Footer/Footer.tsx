@@ -96,11 +96,6 @@ function Footer() {
         </ul>
         <ul className={style.policyInfo}>
           <li>
-            <span>
-              &copy; {year} Vista Studio Językowe. Wszelkie prawa zastrzeżone.
-            </span>
-          </li>
-          <li>
             <Link to="/studio-jezykowe-vista/privacyPolicy">
               Polityka prywatności
             </Link>
@@ -112,6 +107,11 @@ function Footer() {
           </li>
           <li>
             <Link to="/studio-jezykowe-vista/cookies">Ustawienia cookies</Link>
+          </li>{' '}
+          <li>
+            <span>
+              &copy; {year} Vista Studio Językowe. Wszelkie prawa zastrzeżone.
+            </span>
           </li>
         </ul>
       </div>

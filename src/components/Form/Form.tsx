@@ -1,13 +1,13 @@
 import style from './Form.module.css';
 import send from '../../assets/send.svg';
 import Button from '../Button/Button';
-import logo from '../../assets/logo500x500.png';
+import mail_img from '../../assets/mail_img.jpg';
 
 function Form() {
   return (
     <section className={`container ${style.formSection}`}>
       <img
-        src={logo}
+        src={mail_img}
         alt="contactIMG"
         width={600}
         height={620}

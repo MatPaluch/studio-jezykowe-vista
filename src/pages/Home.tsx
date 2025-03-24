@@ -11,8 +11,8 @@ function Home() {
   return (
     <main>
       <Hero />
-      <AboutUs />
       <Science />
+      <AboutUs />
       <Languages />
       <Faq />
       <Contact />

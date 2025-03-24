@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
+import { useEffect, useState } from 'react';
 import loginArrow from '../../assets/loginArrow.svg';
 import Button from '../Button/Button';
-import { useState } from 'react';
 import style from './TabletMenu.module.css';
 import cross from '../../assets/cross.svg';
 
@@ -25,6 +25,15 @@ function TabletMenu() {
       }, 300);
     }
   };
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+  }, [isMenuOpen]);
+
   return (
     <>
       <div className={style.hamburger} onClick={toggleMenu}>
