@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 420px;
+}
+
+.heroStudent {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../assets/student_hero_background.jpg');
+  background-size: cover;
+  background-position: center;
+}

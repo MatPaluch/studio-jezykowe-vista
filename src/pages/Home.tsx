@@ -1,5 +1,5 @@
 import Hero from '../components/Hero/Hero';
-import Science from '../components/Science/Science';
+import Learning from '../components/Learning/Learning';
 import AboutUs from '../components/AboutUs/AboutUs';
 import Languages from '../components/Languages/Languages';
 import Faq from '../components/FAQ/Faq';
@@ -11,7 +11,7 @@ function Home() {
   return (
     <main>
       <Hero />
-      <Science />
+      <Learning />
       <AboutUs />
       <Languages />
       <Faq />

@@ -4,11 +4,16 @@
   padding: 40px;
   display: flex;
   align-items: flex-start;
-  gap: 64px;
+  gap: 32px;
 }
-
-.cardDescription h3 {
-  width: 100%;
+.cardDescription p {
+  flex: 1;
+}
+.header {
+  flex: 1;
+}
+.header > h4 {
+  margin-bottom: 20px;
 }
 
 .benefitsList {

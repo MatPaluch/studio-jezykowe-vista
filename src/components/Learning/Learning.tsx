@@ -1,16 +1,20 @@
-import style from './Science.module.css';
+import style from './Learning.module.css';
 import Button from '../Button/Button';
 import checkCircle from '../../assets/checkCircle.svg';
 import activity from '../../assets/activity.svg';
 import growingUp from '../../assets/trendingUp.svg';
 import chevron from '../../assets/rightChevron.svg';
 
-function Science() {
+function Learning() {
   return (
     <section className="container" id="learning">
       <div>
         <div className={style.cardDescription}>
-          <h3 className="header3">Jak uczymy w Studio Językowym Vista?</h3>
+          <div className={style.header}>
+            <h4 className="tagline">Nauczanie</h4>
+            <h2 className="header2">Jak uczymy w Studio Językowym Vista?</h2>
+          </div>
+
           <p className="textRegular">
             Na naszych zajęciach skupiamy się na wcześniej wyznaczonych celach,
             aby zapewnić efektywną i satysfakcjonującą naukę. Dla niektórych
@@ -80,4 +84,4 @@ function Science() {
   );
 }
 
-export default Science;
+export default Learning;

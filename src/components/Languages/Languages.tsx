@@ -46,7 +46,7 @@ function Languages() {
       </ul>
       <a href="#contact">
         <Button style={{ width: 190 }}>
-          Zapisz się{' '}
+          Zapisz się
           <img src={chevron} alt="chevronRight" width="24" height="24" />
         </Button>
       </a>

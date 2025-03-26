@@ -12,7 +12,7 @@ function AboutUs() {
       <section className='container' id='about'>
         <div className={style.content}>
           <div className={style.heading}>
-            <h3 className='tagline'>O nas</h3>
+            <h4 className='tagline'>O nas</h4>
             <h2 className='header2'>Nasza historia i wartości edukacyjne</h2>
           </div>
           <div className={style.desc}>

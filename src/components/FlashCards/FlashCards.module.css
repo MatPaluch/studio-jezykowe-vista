@@ -1,0 +1,15 @@
+.sectionContent {
+  display: flex;
+}
+.sectionContent h3 {
+  color: var(--onyx);
+}
+.contentHeader {
+  flex: 1;
+}
+.flashCards {
+  flex: 1;
+}
+.subHeader {
+  display: flex;
+}

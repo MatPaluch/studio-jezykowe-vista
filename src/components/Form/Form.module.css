@@ -60,7 +60,7 @@
   transform: translate(-32px, -42px);
 }
 .imgForm {
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
 @media screen and (max-width: 1024px) {

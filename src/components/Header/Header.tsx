@@ -65,7 +65,7 @@ function Header() {
                   </a>
                 </li>
               </ul>
-              <Link to="/student">
+              <Link to="/studio-jezykowe-vista/student">
                 <Button>
                   <img src={loginArrow} />
                   <span>Przejdź do strefy ucznia</span>

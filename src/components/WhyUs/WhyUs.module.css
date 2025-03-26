@@ -51,7 +51,4 @@
   .textBox {
     gap: 16px;
   }
-  .img {
-    aspect-ratio: 1/1;
-  }
 }

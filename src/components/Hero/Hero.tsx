@@ -27,13 +27,6 @@ function Hero() {
           </a>
         </div>
         <div className={style.rightSide}>
-          {/* <img
-            width='734'
-            height='456'
-            src={europeMap}
-            className={style.svgEuropeMap}
-            draggable='false'
-          /> */}
           <CountryMessage
             src={poland}
             top={112}
