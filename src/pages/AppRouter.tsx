@@ -11,10 +11,10 @@ function AppRouter() {
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route
-          path="/studio-jezykowe-vista/student"
+          path="/studio-jezykowe-vista/student/"
           element={<StudentPage />}
         />
-        <Route path="*" element={<HomePage />} />
+        <Route path="/studio-jezykowe-vista/*" element={<HomePage />} />
       </Route>
     </Routes>
   );
