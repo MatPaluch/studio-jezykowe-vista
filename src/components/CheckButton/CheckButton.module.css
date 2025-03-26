@@ -1,0 +1,17 @@
+.checkButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  background: #ec221f;
+  background: #14ae5c;
+  border-radius: 12px;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 150%;
+  color: var(--white);
+  border: 0;
+  cursor: pointer;
+}
