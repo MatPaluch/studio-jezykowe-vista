@@ -25,7 +25,7 @@ function Header() {
   return (
     <header className={style.header}>
       <nav className={style.nav}>
-        <Link to="/studio-jezykowe-vista">
+        <Link to="/studio-jezykowe-vista/">
           <img
             className={style.navLogo}
             src={logo}
@@ -40,7 +40,7 @@ function Header() {
             <>
               <ul className={style.navList}>
                 <li>
-                  <Link to="/studio-jezykowe-vista" className="textMedium">
+                  <Link to="/studio-jezykowe-vista/" className="textMedium">
                     Strona główna
                   </Link>
                 </li>
