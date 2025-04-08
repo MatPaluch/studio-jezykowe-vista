@@ -7,7 +7,7 @@
   box-shadow: 0 4px 26px 2px rgba(0, 0, 0, 0.25);
 }
 .contentInsideBorder {
-  padding: 20px;
+  padding: 30px;
   border-radius: 34px;
   background-color: var(--cloud);
   width: 100%;
@@ -17,21 +17,82 @@
 .content_separator {
   width: 4px;
   height: 100%;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: var(--slate);
 }
 
-.contentLeft {
-  flex: 1.25;
+.contentSides {
+  flex: 1.5;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding: 48px 60px;
 }
 .contentMiddle {
-  flex: 1.5;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-.contentRight {
-  flex: 1.25;
-}
+
 .poland {
   filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
+}
+.addButton {
+  border-radius: 16px;
+  padding: 12px 38px;
+
+  background-color: var(--purple);
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--white);
+  text-align: center;
+
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0px 12px rgba(0, 0, 0, 0.3);
+  transition: background-color 160ms ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addButton:hover {
+  background-color: var(--purple-lighter);
+}
+.addButton:active {
+  background-color: var(--purple-darker);
+}
+
+.addButton:focus-visible {
+  outline: 3px solid var(--purple);
+}
+.inputs {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--slate);
+  text-align: center;
+
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.inputContainer {
+  width: 100%;
+  position: relative;
+}
+.inputContainer::after {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--slate);
 }

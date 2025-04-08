@@ -1,11 +1,11 @@
 import clipboard from '../../assets/clip_board.svg';
 import check_circle from '../../assets/check_circle.svg';
-import arrow_left_circle from '../../assets/arrow_left_circle.svg';
-import arrow_right_circle from '../../assets/arrow_right_circle.svg';
+// import arrow_left_circle from '../../assets/arrow_left_circle.svg';
+// import arrow_right_circle from '../../assets/arrow_right_circle.svg';
 import flashCards from '../../assets/flashcards.jpg';
 import style from './FlashCards.module.css';
-import CheckButton from '../CheckButton/CheckButton';
-import FlipButton from '../FlipButton/FlipButton';
+// import CheckButton from '../CheckButton/CheckButton';
+// import FlipButton from '../FlipButton/FlipButton';
 
 function FlashCards() {
   return (
