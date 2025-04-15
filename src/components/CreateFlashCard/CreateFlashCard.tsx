@@ -5,9 +5,12 @@ import Uk_flag from '../../assets/mini-flag-uk.svg';
 function CreateFlashCard() {
   return (
     <section className="container">
-      <h3 className="header3" style={{ textAlign: 'center', marginBottom: 48 }}>
+      <h3 className="header2" style={{ textAlign: 'center', marginBottom: 12 }}>
         Stwórz fiszkę
       </h3>
+      <h4 className="tagline" style={{ textAlign: 'center', marginBottom: 48 }}>
+        Przekonaj sie sam jakie to proste!
+      </h4>
       <div className={style.border}>
         <div className={style.contentInsideBorder}>
           <div className={style.contentSides}>

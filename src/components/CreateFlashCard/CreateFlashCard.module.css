@@ -77,7 +77,7 @@
   line-height: 150%;
   color: var(--slate);
   text-align: center;
-
+  background-color: var(--cloud);
   width: 100%;
   border: none;
   outline: none;
