@@ -1,11 +1,14 @@
 import { Link, useLocation } from 'react-router';
 import { useState, useEffect } from 'react';
 import style from './Header.module.css';
-import logo from '../../assets/logo.png';
-import loginArrow from '../../assets/loginArrow.svg';
+import Logo from './Logo';
+import NavList from './NavList';
+import StudentNav from './StudentNav';
+import MobileMenu from '../MobileMenu/MobileMenu';
+import TabletMenu from '../TabletMenu/TabletMenu';
 import Button from '../Button/Button';
-import MobileMenu from '../MobileMenu/MobileMenu.tsx';
-import TabletMenu from '../TabletMenu/TabletMenu.tsx';
+import loginArrow from '../../assets/loginArrow.svg';
+import Login from './Login/Login';
 
 function Header() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -26,56 +29,18 @@ function Header() {
   return (
     <header className={style.header}>
       <nav className={style.nav}>
-        <Link to="/studio-jezykowe-vista/">
-          <img
-            className={style.navLogo}
-            src={logo}
-            alt="Logo Studio Językowe Vista"
-            width={90}
-            height={90}
-          />
-        </Link>
-
+        <Logo />
         <div className={style.navigation}>
           {location.pathname === '/studio-jezykowe-vista/student' ? (
-            <ul className={style.navList}>
-              <li>
-                <Link to="/studio-jezykowe-vista/" className="textMedium">
-                  Powrót na stronę główną
-                </Link>
-              </li>
-            </ul>
+            <>
+              <StudentNav />
+              <Login />
+            </>
           ) : (
             <>
               {windowWidth > 1024 && (
                 <>
-                  <ul className={style.navList}>
-                    <li>
-                      <Link to="/studio-jezykowe-vista/" className="textMedium">
-                        Strona główna
-                      </Link>
-                    </li>
-                    <li>
-                      <a href="#learning" className="textMedium">
-                        Nauczanie
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#about" className="textMedium">
-                        O nas
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#language" className="textMedium">
-                        Języki
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#contact" className="textMedium">
-                        Kontakt
-                      </a>
-                    </li>
-                  </ul>
+                  <NavList />
                   <Link to="/studio-jezykowe-vista/student">
                     <Button>
                       <img src={loginArrow} />

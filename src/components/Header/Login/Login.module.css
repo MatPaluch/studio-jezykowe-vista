@@ -1,0 +1,25 @@
+.buttonWrapper {
+  position: relative;
+  display: inline-block;
+  padding: 3px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #d93fd3 0%, #7247e9 100%);
+}
+
+.loginButton {
+  padding: 16px 24px;
+  background: white;
+  color: var(--onyx);
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 14px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.loginButton:hover {
+  background: transparent;
+  color: white;
+}

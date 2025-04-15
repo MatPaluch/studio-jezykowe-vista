@@ -1,5 +1,5 @@
 import Button from '../Button/Button';
-import chevron from '../../assets/rightChevron.svg';
+import chevron from '../../assets/chevron_right.svg';
 import style from './HeroStudent.module.css';
 function HeroStudent() {
   return (

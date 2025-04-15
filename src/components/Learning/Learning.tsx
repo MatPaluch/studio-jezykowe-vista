@@ -3,7 +3,7 @@ import Button from '../Button/Button';
 import checkCircle from '../../assets/checkCircle.svg';
 import activity from '../../assets/activity.svg';
 import growingUp from '../../assets/trendingUp.svg';
-import chevron from '../../assets/rightChevron.svg';
+import chevron from '../../assets/chevron_right.svg';
 
 function Learning() {
   return (

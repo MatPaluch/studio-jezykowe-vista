@@ -56,13 +56,14 @@
   border: none;
   cursor: pointer;
   box-shadow: 0 0px 12px rgba(0, 0, 0, 0.3);
-  transition: background-color 160ms ease-in;
+  transition: background-color 200ms ease-in, box-shadow 200ms ease-in;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .addButton:hover {
   background-color: var(--purple-lighter);
+  box-shadow: 0 0px 12px var(--purple);
 }
 .addButton:active {
   background-color: var(--purple-darker);

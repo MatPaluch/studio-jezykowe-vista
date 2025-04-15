@@ -1,7 +1,7 @@
 import en from '../../assets/mini-flag-uk.svg';
 import de from '../../assets/mini-flag-germany.svg';
 import es from '../../assets/mini-flag-spain.svg';
-import chevron from '../../assets/rightChevron.svg';
+import chevron from '../../assets/chevron_right.svg';
 
 import style from './Languages.module.css';
 import Button from '../Button/Button';
