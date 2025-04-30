@@ -19,7 +19,15 @@
   transition: all 0.3s ease;
 }
 
-.loginButton:hover {
-  background: transparent;
+.loginButton:hover,
+.buttonWrapper:hover {
+  background: #7247e9;
   color: white;
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
