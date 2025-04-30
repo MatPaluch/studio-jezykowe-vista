@@ -1,6 +1,7 @@
 import Button from '../../Button/Button';
 import styles from './Login.module.css';
 import send from '../../../assets/send.svg';
+import { Link } from 'react-router';
 
 function Login() {
   return (
@@ -8,10 +9,12 @@ function Login() {
       <div className={styles.buttonWrapper}>
         <button className={styles.loginButton}>Zaloguj</button>
       </div>
-      <Button>
-        <img src={send} alt="sendIcon" width={24} height={24} />
-        Zajęcia próbne
-      </Button>
+      <Link to="/studio-jezykowe-vista/#contact">
+        <Button>
+          <img src={send} alt="sendIcon" width={24} height={24} />
+          Zajęcia próbne
+        </Button>
+      </Link>
     </div>
   );
 }
