@@ -1,7 +1,11 @@
 import Button from '../Button/Button';
 import chevron from '../../assets/chevron_right.svg';
 import style from './HeroStudent.module.css';
+import { useState } from 'react';
+import LoginModal from '../LoginModal/LoginModal';
+
 function HeroStudent() {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <section className={` ${style.heroStudent}`}>
       <div className={`container ${style.content}`}>
@@ -15,11 +19,12 @@ function HeroStudent() {
           Odkryj funkcje, które ułatwią Ci naukę języków i dostęp do materiałów
           edukacyjnych.
         </p>
-        <Button>
+        <Button onClick={() => setModalOpen(true)}>
           Zaloguj się
           <img src={chevron} alt="rightChevron" width="24" height="24" />
         </Button>
       </div>
+      <LoginModal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
     </section>
   );
 }

@@ -1,4 +1,4 @@
-import CreateFlashCard from '../components/CreateFlashCard/CreateFlashCard';
+// import CreateFlashCard from '../components/CreateFlashCard/CreateFlashCard';
 import FlashCards from '../components/FlashCards/FlashCards';
 import HeroStudent from '../components/HeroStudent/HeroStudent';
 
@@ -7,7 +7,7 @@ function Student() {
     <main>
       <HeroStudent />
       <FlashCards />
-      <CreateFlashCard />
+      {/* <CreateFlashCard /> */}
     </main>
   );
 }
