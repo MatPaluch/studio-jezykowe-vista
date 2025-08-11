@@ -14,29 +14,31 @@ function Footer() {
             <img src={logo} alt="logo84x84" width={84} height={84} />
           </li>
           <li>
-            <h4 className="semiBold">Vista Studio Językowe</h4>
+            <h4 className="semiBold">
+              <Link to="/studio-jezykowe-vista">Vista Studio Językowe</Link>
+            </h4>
             <ul className={style.vsjCol}>
               <li>
-                <a href="#about">O nas</a>
+                <Link to="/studio-jezykowe-vista/#about">O nas</Link>
               </li>
               <li>
-                <a href="#about">Dlaczego my</a>
+                <Link to="/studio-jezykowe-vista/#about">Dlaczego my</Link>
               </li>
               <li>
-                <a href="#language">Języki</a>
+                <Link to="/studio-jezykowe-vista#language">Języki</Link>
               </li>
               <li>
-                <a href="#faq">
+                <Link to="/studio-jezykowe-vista#faq">
                   <abbr
                     title="Frequently Asked Questions"
                     style={{ textDecoration: 'none' }}
                   >
                     FAQ
                   </abbr>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact">Kontakt</a>
+                <Link to="/studio-jezykowe-vista/#contact">Kontakt</Link>
               </li>
             </ul>
           </li>
@@ -44,13 +46,12 @@ function Footer() {
             <h4 className="semiBold">Nasze usługi</h4>
             <ul className={style.vsjCol}>
               <li>
-                <a href="#about">Zajęcia indywidualne</a>
+                <Link to="/studio-jezykowe-vista#about">
+                  Zajęcia indywidualne
+                </Link>
               </li>
               <li>
-                <a href="#language">Opinie uczniów</a>
-              </li>
-              <li>
-                <a href="#about">Cennik kursów</a>
+                <Link to="/studio-jezykowe-vista#about">Cennik kursów</Link>
               </li>
             </ul>
           </li>
@@ -95,7 +96,7 @@ function Footer() {
           </li>
         </ul>
         <ul className={style.policyInfo}>
-          <li>
+          {/* <li>
             <Link to="/studio-jezykowe-vista/privacyPolicy">
               Polityka prywatności
             </Link>
@@ -107,7 +108,7 @@ function Footer() {
           </li>
           <li>
             <Link to="/studio-jezykowe-vista/cookies">Ustawienia cookies</Link>
-          </li>{' '}
+          </li> */}
           <li>
             <span>
               &copy; {year} Vista Studio Językowe. Wszelkie prawa zastrzeżone.

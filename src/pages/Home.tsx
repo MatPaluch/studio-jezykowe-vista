@@ -12,10 +12,8 @@ import { useLocation } from 'react-router';
 function Home() {
   const location = useLocation();
   useEffect(() => {
-    if (location.hash === '#contact') {
-      console.log('location.hash', location.hash);
-      const element = document.getElementById('contact');
-
+    if (location.hash?.length > 1) {
+      const element = document.getElementById(location.hash.slice(1));
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
