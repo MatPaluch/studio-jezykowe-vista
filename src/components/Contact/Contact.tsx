@@ -57,9 +57,9 @@ function Contact() {
           </address>
         </div>
       </section>
-      <div className={style.or}>
+      {/* <div className={style.or}>
         <h2 className="header2">LUB</h2>
-      </div>
+      </div> */}
     </>
   );
 }

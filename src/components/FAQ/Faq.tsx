@@ -12,7 +12,7 @@ function Faq() {
   };
 
   return (
-    <section className="container">
+    <section className="container" id="faq">
       <div className={style.content}>
         <div className={style.title}>
           <h2 className="header2">FAQ</h2>

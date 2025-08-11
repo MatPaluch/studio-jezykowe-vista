@@ -30,7 +30,7 @@ function Home() {
       <Languages />
       <Faq />
       <Contact />
-      <Form />
+      {/* <Form /> */}
       <ClickToAction />
     </main>
   );

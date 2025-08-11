@@ -2,12 +2,20 @@ import Button from '../../Button/Button';
 import styles from './Login.module.css';
 import send from '../../../assets/send.svg';
 import { Link } from 'react-router';
+import { useState } from 'react';
+import LoginModal from '../../LoginModal/LoginModal';
 
 function Login() {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <div className={styles.loginContainer}>
       <div className={styles.buttonWrapper}>
-        <button className={styles.loginButton}>Zaloguj</button>
+        <button
+          className={styles.loginButton}
+          onClick={() => setModalOpen(true)}
+        >
+          Zaloguj
+        </button>
       </div>
       <Link to="/studio-jezykowe-vista/#contact">
         <Button>
@@ -15,6 +23,7 @@ function Login() {
           Zajęcia próbne
         </Button>
       </Link>
+      <LoginModal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
     </div>
   );
 }
