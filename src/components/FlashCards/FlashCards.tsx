@@ -15,9 +15,9 @@ function FlashCards() {
           <h4 className="tagline">Fiszki</h4>
           <h2 className="header2">Odkryj moc nauki z fiszkami</h2>
           <p className="textMedium">
-            Fiszki to interaktywne narzędzie, które ułatwia zapamiętywanie
-            słówek i zwrotów. Dzięki nim nauka staje się przyjemniejsza i
-            bardziej efektywna.
+            Po zalogowaniu się uzyskasz dostęp do interaktywnych fiszek, które
+            ułatwiają zapamiętywanie słówek i zwrotów. Dzięki nim nauka staje
+            się przyjemniejsza i bardziej efektywna.
           </p>
           <div className={style.subHeader}>
             <div className={style.subContent}>
@@ -31,8 +31,7 @@ function FlashCards() {
               <img src={check_circle} alt="clipboard" width={32} height={32} />
               <h3 className="tagline">Wybierz sposób uczenia</h3>
               <p className="textMedium">
-                Tradycyjnie za pomocą fiszek lub interaktywnie z naszą
-                aplikacją.
+                Tradycyjnie za pomocą fiszek lub interaktywnie z Quizem.
               </p>
             </div>
           </div>

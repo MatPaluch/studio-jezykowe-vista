@@ -31,3 +31,23 @@
   align-items: center;
   gap: 24px;
 }
+@media screen and (max-width: 560px) {
+  .loginContainer {
+    gap: 8px;
+  }
+
+  .buttonWrapper {
+    padding: 2px;
+    border-radius: 8px;
+  }
+  .loginButton {
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 6px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .buttonWrapper {
+    display: none;
+  }
+}

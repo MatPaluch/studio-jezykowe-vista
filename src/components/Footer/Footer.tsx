@@ -46,12 +46,17 @@ function Footer() {
             <h4 className="semiBold">Nasze usługi</h4>
             <ul className={style.vsjCol}>
               <li>
-                <Link to="/studio-jezykowe-vista#about">
-                  Zajęcia indywidualne
+                <Link to="/studio-jezykowe-vista#learning">Oferta zajęć</Link>
+              </li>
+              <li>
+                <Link to="/studio-jezykowe-vista#learning">
+                  Sposób nauczania
                 </Link>
               </li>
               <li>
-                <Link to="/studio-jezykowe-vista#about">Cennik kursów</Link>
+                <Link to="/studio-jezykowe-vista#learning">
+                  Zajęcia indywidualne
+                </Link>
               </li>
             </ul>
           </li>

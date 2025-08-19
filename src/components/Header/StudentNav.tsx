@@ -4,7 +4,7 @@ import style from './Header.module.css';
 function StudentNav() {
   return (
     <ul className={style.navList}>
-      <li>
+      <li className={style.navItem}>
         <Link
           to="/studio-jezykowe-vista/"
           className="textMedium"

@@ -94,7 +94,7 @@ function MobileMenu() {
                   Kontakt
                 </a>
               </li>
-              <Link to="/student" onClick={toggleMenu}>
+              <Link to="/studio-jezykowe-vista/student" onClick={toggleMenu}>
                 <Button>
                   <img src={loginArrow} />
                   <span>Przejdź do strefy ucznia</span>
