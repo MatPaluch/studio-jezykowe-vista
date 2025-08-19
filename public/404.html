@@ -4,7 +4,9 @@
     <script type="text/javascript">
       sessionStorage.redirect =
         location.pathname + location.search + location.hash;
-      location.replace(location.origin + location.pathname.split('/')[1] + '/');
+      location.replace(
+        location.origin + '/' + location.pathname.split('/')[1] + '/',
+      );
     </script>
     <meta charset="UTF-8" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
