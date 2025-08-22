@@ -6,7 +6,7 @@ function StudentNav() {
     <ul className={style.navList}>
       <li className={style.navItem}>
         <Link
-          to="/studio-jezykowe-vista/"
+          to="/"
           className="textMedium"
           style={{ display: 'flex', alignItems: 'center', gap: '10px' }}
         >

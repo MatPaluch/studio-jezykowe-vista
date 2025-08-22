@@ -17,7 +17,7 @@ function Login() {
           Zaloguj
         </button>
       </div>
-      <Link to="/studio-jezykowe-vista/#contact">
+      <Link to="#contact">
         <Button>
           <img src={send} alt="sendIcon" width={24} height={24} />
           Zajęcia próbne

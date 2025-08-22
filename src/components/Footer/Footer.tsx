@@ -14,21 +14,19 @@ function Footer() {
             <img src={logo} alt="logo84x84" width={84} height={84} />
           </li>
           <li>
-            <h4 className="semiBold">
-              <Link to="/studio-jezykowe-vista">Vista Studio Językowe</Link>
-            </h4>
+            <h4 className="semiBold">Studio Językowe Vista</h4>
             <ul className={style.vsjCol}>
               <li>
-                <Link to="/studio-jezykowe-vista/#about">O nas</Link>
+                <Link to="/#about">O nas</Link>
               </li>
               <li>
-                <Link to="/studio-jezykowe-vista/#about">Dlaczego my</Link>
+                <Link to="/#about">Dlaczego my</Link>
               </li>
               <li>
-                <Link to="/studio-jezykowe-vista#language">Języki</Link>
+                <Link to="/#language">Języki</Link>
               </li>
               <li>
-                <Link to="/studio-jezykowe-vista#faq">
+                <Link to="/#faq">
                   <abbr
                     title="Frequently Asked Questions"
                     style={{ textDecoration: 'none' }}
@@ -38,7 +36,7 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/studio-jezykowe-vista/#contact">Kontakt</Link>
+                <Link to="/#contact">Kontakt</Link>
               </li>
             </ul>
           </li>
@@ -46,17 +44,13 @@ function Footer() {
             <h4 className="semiBold">Nasze usługi</h4>
             <ul className={style.vsjCol}>
               <li>
-                <Link to="/studio-jezykowe-vista#learning">Oferta zajęć</Link>
+                <Link to="/#learning">Oferta zajęć</Link>
               </li>
               <li>
-                <Link to="/studio-jezykowe-vista#learning">
-                  Sposób nauczania
-                </Link>
+                <Link to="/#learning">Sposób nauczania</Link>
               </li>
               <li>
-                <Link to="/studio-jezykowe-vista#learning">
-                  Zajęcia indywidualne
-                </Link>
+                <Link to="/#learning">Zajęcia indywidualne</Link>
               </li>
             </ul>
           </li>
@@ -102,17 +96,17 @@ function Footer() {
         </ul>
         <ul className={style.policyInfo}>
           {/* <li>
-            <Link to="/studio-jezykowe-vista/privacyPolicy">
+            <Link to="/privacyPolicy">
               Polityka prywatności
             </Link>
           </li>
           <li>
-            <Link to="/studio-jezykowe-vista/termOfUse">
+            <Link to="/termOfUse">
               Warunki korzystania
             </Link>
           </li>
           <li>
-            <Link to="/studio-jezykowe-vista/cookies">Ustawienia cookies</Link>
+            <Link to="/cookies">Ustawienia cookies</Link>
           </li> */}
           <li>
             <span>

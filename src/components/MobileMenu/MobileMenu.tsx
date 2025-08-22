@@ -70,7 +70,7 @@ function MobileMenu() {
           <nav className="menu-nav">
             <ul className={style.navList}>
               <li>
-                <Link to="/studio-jezykowe-vista" onClick={toggleMenu}>
+                <Link to="/" onClick={toggleMenu}>
                   Strona główna
                 </Link>
               </li>
@@ -94,7 +94,7 @@ function MobileMenu() {
                   Kontakt
                 </a>
               </li>
-              <Link to="/studio-jezykowe-vista/student" onClick={toggleMenu}>
+              <Link to="/student" onClick={toggleMenu}>
                 <Button>
                   <img src={loginArrow} />
                   <span>Przejdź do strefy ucznia</span>

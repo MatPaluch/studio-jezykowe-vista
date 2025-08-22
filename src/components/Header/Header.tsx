@@ -31,7 +31,7 @@ function Header() {
       <nav className={style.nav}>
         <Logo />
         <div className={style.navigation}>
-          {location.pathname === '/studio-jezykowe-vista/student' ? (
+          {location.pathname === '/student' ? (
             <>
               <StudentNav />
               <Login />
@@ -41,7 +41,7 @@ function Header() {
               {windowWidth > 1024 && (
                 <>
                   <NavList />
-                  <Link to="/studio-jezykowe-vista/student">
+                  <Link to="/student">
                     <Button>
                       <img src={loginArrow} />
                       <span>Przejdź do strefy ucznia</span>

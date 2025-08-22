@@ -53,7 +53,7 @@ function TabletMenu() {
           />
         </svg>
       </div>
-      <Link to="/studio-jezykowe-vista/student">
+      <Link to="/student">
         <Button>
           <img src={loginArrow} />
           <span>Przejdź do strefy ucznia</span>
@@ -68,7 +68,7 @@ function TabletMenu() {
           <nav>
             <ul className={style.navList}>
               <li>
-                <Link to="/studio-jezykowe-vista" onClick={toggleMenu}>
+                <Link to="/" onClick={toggleMenu}>
                   Strona główna
                 </Link>
               </li>

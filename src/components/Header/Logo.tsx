@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png';
 
 function Logo() {
   return (
-    <Link to="/studio-jezykowe-vista/">
+    <Link to="/">
       <img
         className={style.navLogo}
         src={logo}

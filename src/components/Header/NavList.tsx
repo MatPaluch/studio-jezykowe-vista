@@ -5,7 +5,7 @@ function NavList() {
   return (
     <ul className={style.navList}>
       <li>
-        <Link to="/studio-jezykowe-vista/" className="textMedium">
+        <Link to="/" className="textMedium">
           Strona główna
         </Link>
       </li>

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://matpaluch.github.io/studio-jezykowe-vista/",
+  "homepage": "http://studio-jezykowe-vista.pl",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
