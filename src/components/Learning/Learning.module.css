@@ -1,6 +1,6 @@
 .cardDescription {
-  background-color: var(--yellow);
-  border-radius: 32px 0 0 32px;
+  background-color: var(--yellow-bg);
+  border-radius: 32px 0 32px 0;
   padding: 40px;
   display: flex;
   align-items: flex-start;

@@ -23,9 +23,9 @@ function Home() {
   return (
     <main>
       <Hero />
+      <Languages />
       <Learning />
       <AboutUs />
-      <Languages />
       <Faq />
       <Contact />
       {/* <Form /> */}

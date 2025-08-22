@@ -20,7 +20,6 @@
 }
 
 .cardList > li {
-  background-color: var(--blue);
   border-radius: 36px 0;
   padding: 28px 16px;
   flex: 1;
@@ -31,12 +30,65 @@
   gap: 24px;
   text-align: center;
   height: auto;
+  cursor: pointer;
+}
+
+.cardList > li:first-child {
+  background-color: var(--blue);
+}
+.cardList > li:nth-child(2) {
+  background-color: var(--purple);
+}
+.cardList > li:last-child {
+  background-color: var(--yellow);
 }
 
 .cardList > li > p {
   color: white;
 }
 
+.categoryList {
+  background-color: var(--blue);
+  padding: 32px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  color: white;
+  position: relative;
+}
+.categoryList > li:first-child {
+  padding-left: 32px;
+}
+.categoryList > li:last-child {
+  padding-right: 32px;
+}
+.categoryItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.categoryContent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px 24px;
+  background-color: var(--cloud-blue);
+  text-align: center;
+}
+.categoryHeader {
+  background-color: var(--darker-blue);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.pointerPolygon {
+  position: absolute;
+  top: -44px;
+  left: 160px;
+}
 @media screen and (max-width: 1024px) {
   .cardList {
     flex-direction: column;

@@ -2,6 +2,7 @@ import en from '../../assets/mini-flag-uk.svg';
 import de from '../../assets/mini-flag-germany.svg';
 import es from '../../assets/mini-flag-spain.svg';
 import chevron from '../../assets/chevron_right.svg';
+import pointer_polygon from '../../assets/pointer_polygon.svg';
 
 import style from './Languages.module.css';
 import Button from '../Button/Button';
@@ -44,6 +45,92 @@ function Languages() {
           </p>
         </li>
       </ul>
+
+      <ul className={style.categoryList}>
+        <li className={style.categoryItem}>
+          <div className={style.categoryHeader}>
+            <span className="header3_5">📘</span>
+            <h3 className="header3_5">Kurs językowy</h3>
+          </div>
+
+          <ul className={style.categoryContent}>
+            <li>
+              <h4>KURS INDYWIDUALNY</h4>
+              <p>
+                Nauka dla każdego: dzieci, młodzieży, studentów,dorosłych i
+                seniorów.
+              </p>
+            </li>
+            <li>
+              <h4>ZAJĘCIA KONWERSACYJNE</h4>
+              <p>Swobodne konwersacje które przełamią bariery językowe.</p>
+            </li>
+            <li>
+              <h4>BUSINESS ENGLISH</h4>
+              <p>Profesjonalny angielski w pracy i biznesie.</p>
+            </li>
+            <li>
+              <h4>PRZYGOTOWANIE DO ROZMÓW KWALIFIKACYJNYCH</h4>
+              <p>Symulacje rozmów, przygotowanie do pytań i odpowiedzi.</p>
+            </li>
+            <li>
+              <h4>ANGIELSKI W PODRÓŻY</h4>
+              <p>Mów pewnie w każdym zakątku świata.</p>
+            </li>
+          </ul>
+        </li>
+        <img
+          src={pointer_polygon}
+          alt="pointer_polygon"
+          className={style.pointerPolygon}
+          width={64}
+          height={48}
+        />
+        <li className={style.categoryItem}>
+          <div className={style.categoryHeader}>
+            <span className="header3_5">✏️</span>
+            <h3 className="header3_5">Korepetycje</h3>
+          </div>
+
+          <ul className={style.categoryContent}>
+            <li>
+              <h4>PROFESJONALNE WSPARCIE DLA UCZNIÓW</h4>
+              <p>Szkół podstawowych, liceum i technikum.</p>
+            </li>
+            <li>
+              <h4>KOREPETYCJE DLA STUDENTÓW</h4>
+              <p>Nadrobienie zaległości lub nauka ,,na 5’’.</p>
+            </li>
+            <li>
+              <h4>POWTÓRKI MATERIAŁÓW</h4>
+              <p>Przygotowanie do kartkówek i sprawdzianów.</p>
+            </li>
+            <li>
+              <h4>ĆWICZENIE UMIEJĘTNOŚCI</h4>
+              <p>Komunikacyjnych i werbalnych w praktyce.</p>
+            </li>
+          </ul>
+        </li>
+
+        <li className={style.categoryItem}>
+          <div className={style.categoryHeader}>
+            <span className="header3_5">🎓</span>
+            <h3 className="header3_5">Egzaminy</h3>
+          </div>
+
+          <ul className={style.categoryContent}>
+            <li>
+              <h4>MATURA Z J. ANGIELSKIEGO</h4>
+              <p>Poziom podstawowy i rozszerzony.</p>
+            </li>
+            <li>
+              <h4>EGZAMIN ÓSMOKLASISTY Z J. ANGIELSKIEGO</h4>
+              <p>Bez stresu i z dobrym wynikiem.</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
       <a href="#contact">
         <Button style={{ width: 190 }}>
           Zapisz się

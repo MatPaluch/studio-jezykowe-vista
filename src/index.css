@@ -15,7 +15,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   --button-background: linear-gradient(90deg, #d93fd3 0%, #7247e9 100%);
-  --yellow: #ffed8e;
+  --yellow-bg: #ffed8e;
   --pink: #d93fd3;
   --cloud-blue: #8cbaff;
   --blue: #6888eb;
@@ -26,6 +26,7 @@
   --lands: #ffed8b;
   --walls: #ffd700;
   --borders: #ffc446;
+  --yellow: #ffc446;
   --cloud: #fafcfe;
   --dorian: #ecf1f4;
   --evergreen: #31d0aa;
