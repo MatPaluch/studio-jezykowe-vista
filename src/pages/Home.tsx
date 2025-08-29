@@ -24,12 +24,12 @@ function Home() {
     <main>
       <Hero />
       <Languages />
+      <ClickToAction />
       <Learning />
       <AboutUs />
       <Faq />
       <Contact />
       {/* <Form /> */}
-      <ClickToAction />
     </main>
   );
 }

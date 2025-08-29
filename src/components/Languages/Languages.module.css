@@ -30,7 +30,6 @@
   gap: 24px;
   text-align: center;
   height: auto;
-  cursor: pointer;
 }
 
 .cardList > li:first-child {

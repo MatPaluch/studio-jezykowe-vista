@@ -44,13 +44,13 @@ function Footer() {
             <h4 className="semiBold">Nasze usługi</h4>
             <ul className={style.vsjCol}>
               <li>
-                <Link to="/#learning">Oferta zajęć</Link>
+                <Link to="/#offer">Kurs językowy</Link>
               </li>
               <li>
-                <Link to="/#learning">Sposób nauczania</Link>
+                <Link to="/#offer">Korepetycje</Link>
               </li>
               <li>
-                <Link to="/#learning">Zajęcia indywidualne</Link>
+                <Link to="/#offer">Egzaminy</Link>
               </li>
             </ul>
           </li>

@@ -46,7 +46,7 @@ function Languages() {
         </li>
       </ul>
 
-      <ul className={style.categoryList}>
+      <ul className={style.categoryList} id="offer">
         <li className={style.categoryItem}>
           <div className={style.categoryHeader}>
             <span className="header3_5">📘</span>
@@ -130,13 +130,6 @@ function Languages() {
           </ul>
         </li>
       </ul>
-
-      <a href="#contact">
-        <Button style={{ width: 190 }}>
-          Zapisz się
-          <img src={chevron} alt="chevronRight" width="24" height="24" />
-        </Button>
-      </a>
     </section>
   );
 }
