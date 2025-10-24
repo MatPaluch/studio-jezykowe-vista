@@ -121,18 +121,18 @@
     left: 100px;
   }
   .categoryList > li:first-child {
-  padding-left: 16px;
-}
-.categoryList > li:last-child {
-  padding-right: 16px;
-}
+    padding-left: 16px;
+  }
+  .categoryList > li:last-child {
+    padding-right: 16px;
+  }
 }
 /* 🔹 Karuzela mobilna */
 
 .cardList {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  justify-content: flex-start;
+  justify-content: center;
   scroll-behavior: smooth;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -150,7 +150,4 @@
 
 .secLang {
   gap: 40px;
-}
-.cardList {
-  gap: 24px;
 }

@@ -11,8 +11,17 @@ function Languages() {
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
 
+  const listRef = useRef<HTMLUListElement>(null);
+
+  useEffect(() => {
+    const el = listRef.current;
+    if (el) {
+      el.scrollLeft = (el.scrollWidth - el.clientWidth) / 2;
+    }
+  }, []);
+
   const handleMouseDown = (e: MouseEvent<HTMLUListElement>) => {
-    if (window.innerWidth >= 1024) return; // tylko mobile/tablet
+    if (window.innerWidth >= 1280) return; // tylko mobile/tablet
     setIsDragging(true);
     setStartX(e.pageX - (cardListRef.current?.offsetLeft ?? 0));
     setScrollLeft(cardListRef.current?.scrollLeft ?? 0);
@@ -69,7 +78,7 @@ function Languages() {
 
   // domyślnie wycentruj środkową kartę przy starcie (na mobile)
   useEffect(() => {
-    if (window.innerWidth < 1024) {
+    if (window.innerWidth < 1280) {
       setTimeout(() => handleCardClick(1), 300);
     }
   }, []);
@@ -119,7 +128,7 @@ function Languages() {
           </p>
         </li>
       </ul>
-      <ul className={style.categoryList} id="offer">
+      <ul className={style.categoryList} id="offer" ref={listRef}>
         <li className={style.categoryItem}>
           <div className={style.categoryHeader}>
             <span className="header3_5">📘</span>
