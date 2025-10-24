@@ -2,11 +2,11 @@
 <html lang="pl">
   <head>
     <script type="text/javascript">
+      // Zapisz aktualny path, query i hash do sessionStorage
       sessionStorage.redirect =
         location.pathname + location.search + location.hash;
-      location.replace(
-        location.origin + '/' + location.pathname.split('/')[1] + '/',
-      );
+      // Przekieruj na główny index.html
+      location.replace(location.origin + '/');
     </script>
     <meta charset="UTF-8" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
