@@ -17,6 +17,8 @@
 .cardList {
   display: flex;
   gap: 48px;
+  justify-content: center;
+  transition: all 0.3s ease;
 }
 
 .cardList > li {
@@ -30,10 +32,9 @@
   gap: 24px;
   text-align: center;
   height: auto;
-}
-
-.no_wrap {
-  white-space: nowrap;
+  scroll-snap-align: center;
+  transition: transform 0.3s ease;
+  cursor: grab;
 }
 
 .cardList > li:first-child {
@@ -58,18 +59,23 @@
   gap: 48px;
   color: white;
   position: relative;
+  width: 100%;
+  overflow-x: scroll;
 }
+
 .categoryList > li:first-child {
   padding-left: 32px;
 }
 .categoryList > li:last-child {
   padding-right: 32px;
 }
+
 .categoryItem {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 48px;
+  min-width: 380px;
 }
 .categoryContent {
   display: flex;
@@ -87,21 +93,38 @@
   justify-content: center;
   gap: 32px;
 }
+.categoryHeader > h3 {
+  white-space: nowrap;
+}
 .pointerPolygon {
   position: absolute;
   top: -44px;
   left: 160px;
 }
-@media screen and (max-width: 1024px) {
-  .cardList {
-    flex-direction: column;
-  }
+
+/* 🔹 Karuzela mobilna */
+
+.cardList {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  justify-content: flex-start;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
-@media screen and (max-width: 768px) {
-  .secLang {
-    gap: 40px;
-  }
-  .cardList {
-    gap: 24px;
-  }
+.cardList::-webkit-scrollbar {
+  display: none;
+}
+.cardList > li {
+  flex: 0 0 80%;
+  max-width: 400px;
+}
+
+/* 🔹 Kompaktowy układ na mniejszych ekranach */
+
+.secLang {
+  gap: 40px;
+}
+.cardList {
+  gap: 24px;
 }
