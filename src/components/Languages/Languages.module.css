@@ -102,6 +102,31 @@
   left: 160px;
 }
 
+@media screen and (max-width: 480px) {
+  .categoryList {
+    gap: 24px;
+  }
+  .categoryItem {
+    min-width: 280px;
+    gap: 24px;
+  }
+  .categoryContent {
+    padding: 24px 16px;
+    gap: 12px;
+  }
+  .categoryHeader {
+    gap: 16px;
+  }
+  .pointerPolygon {
+    left: 100px;
+  }
+  .categoryList > li:first-child {
+  padding-left: 16px;
+}
+.categoryList > li:last-child {
+  padding-right: 16px;
+}
+}
 /* 🔹 Karuzela mobilna */
 
 .cardList {
@@ -111,13 +136,14 @@
   scroll-behavior: smooth;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  width: 100%;
 }
 .cardList::-webkit-scrollbar {
   display: none;
 }
 .cardList > li {
-  flex: 0 0 80%;
-  max-width: 400px;
+  flex: 0 0 90%;
+  max-width: 380px;
 }
 
 /* 🔹 Kompaktowy układ na mniejszych ekranach */
