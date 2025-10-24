@@ -32,6 +32,10 @@ function MobileMenu() {
     } else {
       document.body.classList.remove('no-scroll');
     }
+    return () => {
+      // cleanup — jeśli komponent zostanie usunięty zanim efekt się skończy
+      document.body.classList.remove('no-scroll');
+    };
   }, [isMenuOpen]);
 
   return (

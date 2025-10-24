@@ -11,3 +11,15 @@
   background-size: cover;
   background-position: center;
 }
+
+@media (max-width: 768px) {
+  .content {
+    height: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    height: 240px;
+  }
+}
