@@ -53,6 +53,9 @@ footer {
   .policyInfo {
     flex-wrap: wrap;
   }
+  .vsjCol {
+    gap: 8px;
+  }
 }
 @media screen and (max-width: 480px) {
   .footerColumns a {

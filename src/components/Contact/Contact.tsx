@@ -19,9 +19,14 @@ function Contact() {
           <address>
             <ul className={style.list}>
               <li className={style.item}>
-                <img src={envelope} alt="envelopeIcon" width={24} height={24} />
+                <h6 className="header6">Email</h6>
                 <span>
-                  <h6 className="header6">Email</h6>
+                  <img
+                    src={envelope}
+                    alt="envelopeIcon"
+                    width={24}
+                    height={24}
+                  />
                   <a
                     className="textLinks"
                     href="mailto:studiojezykowevista@gmail.com"
@@ -31,18 +36,18 @@ function Contact() {
                 </span>
               </li>
               <li className={style.item}>
-                <img src={phone} alt="phoneIcon" width={24} height={24} />
+                <h6 className="header6">Telefon</h6>
                 <span>
-                  <h6 className="header6">Telefon</h6>
+                  <img src={phone} alt="phoneIcon" width={24} height={24} />
                   <a className="textLinks" href="tel:+48723956208">
                     +48 723 956 208
                   </a>
                 </span>
               </li>
               <li className={style.item}>
-                <img src={map} alt="mapIcon" width={24} height={24} />
+                <h6 className="header6">Biuro</h6>
                 <span>
-                  <h6 className="header6">Biuro</h6>
+                  <img src={map} alt="mapIcon" width={24} height={24} />
                   <a
                     className="textLinks"
                     href="https://maps.app.goo.gl/xy2Brt8hZFeSzqoV9"

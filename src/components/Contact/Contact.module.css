@@ -16,11 +16,14 @@
   gap: 24px;
 }
 .item {
+  flex-direction: column;
   display: flex;
   gap: 16px;
 }
-.item > span > h6 {
-  margin-bottom: 8px;
+.item > span {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 .or {
   text-align: center;
