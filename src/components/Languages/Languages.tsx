@@ -131,9 +131,9 @@ function Languages() {
       <ul className={style.categoryList} id="offer" ref={listRef}>
         <li className={style.categoryItem}>
           <div className={style.categoryHeader}>
-            <span className="header3_5">📘</span>
-            <h3 className="header3_5">Kurs językowy</h3>
+            <h3 className="header3_5">📘 Kurs językowy</h3>
           </div>
+
           <ul className={style.categoryContent}>
             <li>
               <h4>KURS INDYWIDUALNY</h4>
@@ -161,18 +161,17 @@ function Languages() {
           </ul>
         </li>
 
-        <img
+        {/* <img
           src={pointer_polygon}
           alt="pointer_polygon"
           className={style.pointerPolygon}
           width={64}
           height={48}
-        />
+        /> */}
 
         <li className={style.categoryItem}>
           <div className={style.categoryHeader}>
-            <span className="header3_5">✏️</span>
-            <h3 className="header3_5">Korepetycje</h3>
+            <h3 className="header3_5">✏️ Korepetycje</h3>
           </div>
           <ul className={style.categoryContent}>
             <li>
@@ -196,8 +195,7 @@ function Languages() {
 
         <li className={style.categoryItem}>
           <div className={style.categoryHeader}>
-            <span className="header3_5">🎓</span>
-            <h3 className="header3_5">Egzaminy</h3>
+            <h3 className="header3_5">🎓 Egzaminy</h3>
           </div>
           <ul className={style.categoryContent}>
             <li>
