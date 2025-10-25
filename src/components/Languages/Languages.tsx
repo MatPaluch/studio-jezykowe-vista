@@ -2,7 +2,7 @@ import { useRef, useState, useEffect, MouseEvent } from 'react';
 import en from '../../assets/mini-flag-uk.svg';
 import de from '../../assets/mini-flag-germany.svg';
 import es from '../../assets/mini-flag-spain.svg';
-import pointer_polygon from '../../assets/pointer_polygon.svg';
+// import pointer_polygon from '../../assets/pointer_polygon.svg';
 import style from './Languages.module.css';
 
 function Languages() {
